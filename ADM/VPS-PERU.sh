@@ -245,7 +245,8 @@ clear
 clear
 msg -bar2
 msg -bar2
-figlet "    -VPS MX-" | lolcat 
+cowsay -f kiss "@ALANTOTUS94 |generadores  Venta de droplets |" |lolcat
+figlet "    ALAN TECK PERU" | lolcat 
 echo -e "     ESTE SCRIPT ESTA OPTIMIZADO A IDIOMA ESPAÑOL"
 msg -bar2
 pv="$(echo es)"
