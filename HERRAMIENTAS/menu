@@ -554,20 +554,20 @@ ofc="\033[0m${gren}(#OFICIAL)"
 dev="\033[0m${yellow}(#BETA)"
 dev2="\033[0m${red}(#PREMIUM)"
 case $1 in
-"ADMbot-VEN.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "=>>") " && msg -azu "BOT-USA1 VENTAS $dev2";;
+"ADMbot-VEN.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "BOT-USA1 VENTAS $dev2";;
 
-"openssh.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "OPENSSH $(pid_inst sshd)";;
+"openssh.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "OPENSSH $(pid_inst sshd)";;
 
-"squid.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "SQUID ---------------------------- $(pid_inst squid)";;
-"dropbear.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "DROPBEAR ------------------------- $(pid_inst dropbear)";;
-"openvpn.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "OPENVPN -------------------------- $(pid_inst openvpn)";;
-"ssl.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "SSL ------------------------------ $(pid_inst stunnel4)";;
-"shadowsocks.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "SHADOWSOCKS-NORMAL --------------- $(pid_inst ssserver)";;
-"Shadowsocks-libev.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "SHADOWSOCKS-LIBEV ---------------- $(pid_inst ss-server)";;
-"Shadowsocks-R.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "SHADOWSOCKS-R -------------------- ${valuest}";; 
-"sockspy.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "SOCKS PYTHON --------------------- $(pid_inst python)";;
-"v2ray.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 "==>>") " && msg -azu "V2RAY ---------------------------- $(pid_inst v2ray)";; 
-"budp.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 "==>>") " && msg -azu "BADVPN-(UDP:7300) ---------------- $(pid_inst badvpn)";;
+"squid.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "SQUID ---------------------------- $(pid_inst squid)";;
+"dropbear.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "DROPBEAR ------------------------- $(pid_inst dropbear)";;
+"openvpn.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "OPENVPN -------------------------- $(pid_inst openvpn)";;
+"ssl.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "SSL ------------------------------ $(pid_inst stunnel4)";;
+"shadowsocks.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "SHADOWSOCKS-NORMAL --------------- $(pid_inst ssserver)";;
+"Shadowsocks-libev.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "SHADOWSOCKS-LIBEV ---------------- $(pid_inst ss-server)";;
+"Shadowsocks-R.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "SHADOWSOCKS-R -------------------- ${valuest}";; 
+"sockspy.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "SOCKS PYTHON --------------------- $(pid_inst python)";;
+"v2ray.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">>") " && msg -azu "V2RAY ---------------------------- $(pid_inst v2ray)";; 
+"budp.sh")echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "BADVPN-(UDP:7300) ---------------- $(pid_inst badvpn)";;
 
 "paysnd.sh")return 1;;
 "ultrahost")return 1;;
@@ -592,7 +592,7 @@ case $1 in
 "PPub.py")return 1;;
 "speedtest.py")return 1;;
 "SSH20.log")return 1;; 
-*)echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>>") " && msg -azu "${1^^} \033[1;33m No Hay Una Descripcion !";;
+*)echo -ne "$(msg -verd " [$2]") $(msg -verm2 ">>") " && msg -azu "${1^^} \033[1;33m No Hay Una Descripcion !";;
 esac
 }
 ferramentas_fun () {
