@@ -390,7 +390,7 @@ wget -O /var/www/html/estilos.css https://www.dropbox.com/s/9kmvmfyvudynp8a/esti
 msg -bar2
 msg -bar2
 msg -ama "     [ 962948255 \033[1;97m ❌ ALAN TECK PERU ❌\033[1;33m ]"
-msg -ama "  \033[1;96m      🔰Usar Ubuntu 20 a 64 De Preferencia🔰 "
+msg -ama "  \033[1;96m      🔰 Usar Ubuntu 20 a 64 De Preferencia🔰 "
 msg -bar2
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
