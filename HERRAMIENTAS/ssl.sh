@@ -1,5 +1,5 @@
 #!/bin/bash
-#25/01/2021 by @Kalix1
+#25/01/2021 ALAN TECK PERU
 clear
 clear
 SCPdir="/etc/VPS-MX"
@@ -50,7 +50,7 @@ echo -e "\033[1;33m $(fun_trans  "Detenido Con Exito!")"
 msg -bar
 return 0
 }
-echo -e "\033[1;32m $(fun_trans  "              INSTALADOR SSL By VPS-MX")"
+echo -e "\033[1;32m $(fun_trans  "              INSTALADOR SSL ALAN TECK PERU")"
 msg -bar
 echo -e "\033[1;33m $(fun_trans  "Seleccione una puerta de redirección interna.")"
 echo -e "\033[1;33m $(fun_trans  "Un puerto SSH/DROPBEAR/SQUID/OPENVPN/SSL")"
@@ -153,7 +153,7 @@ clear
 msg -bar
 msg -bar3
 msg -tit
-echo -e "${cor[3]}       INSTALADOR MONO Y MULTI SSL By @Kalix1"
+echo -e "${cor[3]}       INSTALADOR MONO Y MULTI SSL ALAN TECK PERU"
 msg -bar
 echo -e "${cor[1]}            Escoja la opcion deseada."
 msg -bar
