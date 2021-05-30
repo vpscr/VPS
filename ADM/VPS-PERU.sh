@@ -37,7 +37,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 }
 ### PAQUETES PRINCIPALES 
 msg -bar2
-msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ ALAN TECK PERU ❌\033[1;33m ]"
+msg -ama "     [ ACTUALIZADDO 2021-2022 (8.4) \033[1;97m ❌ ALAN TECK PERU ❌\033[1;33m ]"
 msg -bar
 echo -e "\033[97m"
 echo -e "  \033[41m    -- INSTALACION DE PAQUETES PARA ALAN TECK PERU --    \e[49m"
